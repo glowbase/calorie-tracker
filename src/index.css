@@ -1,0 +1,153 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 12px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.summary-box {
+  color: white;
+  background-color: rgb(53, 104, 199);
+  padding: 18px;
+  border-radius: 20px;
+}
+
+.sb-header {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.sb-cal {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sb-cal > span {
+  font-size: 14px;
+}
+
+.sb-breakdown-box {
+  background-color:rgb(81, 129, 216);
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  margin-top: 8px;
+}
+
+.sb-breakdown-box > div {
+  flex: 1;
+  text-align: center;
+  border-left: 2px solid rgb(53, 104, 199);
+}
+
+.sb-breakdown-box > div:first-child {
+  border: none;
+}
+
+.sb-breakdown-header {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.sb-breakdown-content {
+  font-size: 13px;
+}
+
+.food-item {
+  background-color: white;
+  display: flex;
+  padding: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid rgb(234, 242, 255);
+  align-items: center;
+}
+
+.food-item:first-child {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.food-item:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: none;
+}
+
+.food-item-name {
+  flex: 1;
+}
+
+.food-item-name,
+.food-item-calories {
+  font-size: 13px;
+  padding-top: 1.5px;
+  text-transform: uppercase;
+}
+
+.food-item-calories {
+  color:rgb(34, 90, 196);
+}
+
+.food-item-arrow {
+  padding-top: 1px;
+  margin-left: 8px;
+}
+
+.food-list-title {
+  font-size: 24px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  margin-top: 24px;
+}
+
+.food-list-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.food-list-title > div:first-child {
+  flex: 1;
+}
+
+.fl-title-calories {
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.search-input {
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.search-input input {
+  width: 100%;
+  margin-left: 8px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
